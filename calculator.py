@@ -41,6 +41,22 @@ while True:
     
     elif operations_token[0] == "-":
        print(subtract(operations_token[1], operations_token[2]))
+
+    elif operations_token[0] == "*":
+       print(multiply(operations_token[1], operations_token[2]))
+
+    elif operations_token[0] == "/":
+       print(divide(operations_token[1], operations_token[2]))
+
+    elif operations_token[0] == "cube":
+       print(cube(operations_token[1]))
+    
+    elif operations_token[0] == "square":
+       print(square(operations_token[1]))
+    
+    elif operations_token[0] == "mod":
+       print(mod(operations_token[1], operations_token[2]))
  
-   
+    else:
+       break
       
